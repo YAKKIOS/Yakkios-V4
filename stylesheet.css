@@ -238,13 +238,17 @@ html {
   height: 40px;
 }
 
+#padding_block_64 {
+  height: 64px;
+}
+
 #padding_block_104 {
   height: 104px;
 }
 
 
-#padding_block_8 {
-  height: 8px;
+#padding_block_20vw {
+  height: 20vw;
 }
 
 
@@ -280,6 +284,7 @@ html {
   margin-top: 0px;
     max-width: 370px;
     display: inline-block;
+    padding-right: 30px;
 }
 
 .about-gif {
@@ -314,28 +319,35 @@ html {
   height: 40px;
 }
 
+.About-Project {
+    padding-left: .6rem;
+}
+
+#padding_block_104 {
+  height: 32px;
+}
+
+#div2 h3 {
+  visibility: hidden;
+}
+
+#div2 p {
+  padding-bottom: 12px;
+}
+
 }
 
 @media screen and (max-width: 667px) {
 
-  .centre-header {
-    display: none;
   }
 
-  .gif {
-    width: 100%;
-  }
 
-.footer {
-  padding: 4rem 2rem 2rem 2rem;
-  position: inherit;
+@media screen and (max-width: 590px) {
+
+#div4 {
+
+  margin-top: 40px;
 }
-
-  }
-
-
-@media screen and (max-width: 480px) {
-
 
 }
 
