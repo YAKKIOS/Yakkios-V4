@@ -317,8 +317,8 @@ html {
 @media screen and (max-width: 890px) {
 
 .hero {
-  padding-right: .6rem;
-  padding-left: .6rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 #padding_block_80 {
@@ -366,6 +366,10 @@ html {
   max-width: 88%;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.feature-block-about {
+  max-width: 100%;
 }
 
 }
