@@ -11,20 +11,27 @@ body {
 }
 
 p {
+  font-size: 27px;
+  padding: 0 0 0 0;
+  margin: 0;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+p2 {
   font-size: 15px;
   padding: 0 0 0 0;
   margin: 0;
-  font-weight: 600;
-  letter-spacing: -0.5px;
-  line-height: 17px;
+  font-weight: 500;
+  line-height: 20px;
 }
 
 h3 {
   font-size: 15px;
-  text-transform: uppercase;
   padding: 0 0 8px 0;
   margin: 0;
-  font-weight: 600;
+  font-weight: 500;
+  color: grey;
 }
 
 body a {
@@ -77,15 +84,14 @@ html {
 .yakkios-header {
     font-family: Inter, sans-serif;
     width: 100vw;
-    padding: 0.6rem;
+    padding: 1rem;
     position: fixed;
     top: 0;
     justify-content: space-between;
-    font-size: 15px;
+    font-size: 27px;
     display: flex;
     box-sizing: border-box;
-    letter-spacing: -0.5px;
-    font-weight: 600;
+    font-weight: 500;
     background-color: white;
   }
 
@@ -145,15 +151,13 @@ html {
 
 .footer {
     font-family: Inter, sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     /*width: 100vw;*/
-    padding: .6rem;
-    position: fixed;
+    padding: 1rem;
     bottom: 0;
-    text-transform: uppercase;
     justify-content: space-between;
-    display: flex;
     box-sizing: border-box;
+    color: grey;
 }
 
 .footer a {
@@ -173,17 +177,18 @@ html {
     padding: 0px 2rem 0 0px;
     margin: 0px;
     font-weight: normal;
-    max-width: 370px;
+    max-width: 60%;
 }
 
 
 .feature-block-about a { 
-  text-decoration: underline;
+  text-decoration: none;
 
 }
 
 .feature-block-about a:hover { 
   text-decoration: none;
+  color: grey;
 }
 
 .feature-block-about a span { 
@@ -195,26 +200,28 @@ html {
 
 .feature-block-about h3 {
   font-size: 15px;
-  text-transform: uppercase;
   padding: 0 0 8px 0;
   margin: 0;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .feature-block-about p {
   padding: 0;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 15px;
-  letter-spacing: -0.5px;
   line-height: 17px;
   padding: 0;
   margin: 0;
 }
 
 .gif {
-    padding-top: 40px;
     width: 270px;
   }
+
+.about-image {
+  max-width: 60%;
+  padding-left: 1rem;
+}
 
 .paragraph-indent {
   text-indent: 40px;
@@ -235,7 +242,7 @@ html {
 }
 
 #padding_block_40 {
-  height: 40px;
+  height: 80px;
 }
 
 #padding_block_64 {
@@ -269,34 +276,33 @@ html {
 }
 
 .about-wrapper {
-  padding: 2.5rem 0 0 .6rem;
+  padding: 6rem 0 0 1rem;
 }
 
 #div3 {
   vertical-align: top;
   padding-right: 2rem;
-  max-width: 370px;
+  max-width: 60%;
   display: inline-block;
 }
 
 #div4 {
   vertical-align: top;
   margin-top: 0px;
-    max-width: 370px;
-    display: inline-block;
+    max-width: 800px;
     padding-right: 30px;
 }
 
 .about-gif {
   padding-left: .6rem;
-  max-width: 370px;
+  max-width: 800px;
 }
 
 .About-Project {
     padding-left: 10rem;
     margin: 0px;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 
@@ -315,8 +321,8 @@ html {
   padding-left: .6rem;
 }
 
-#padding_block_156 {
-  height: 40px;
+#padding_block_80 {
+  height: 80px;
 }
 
 .About-Project {
@@ -349,9 +355,27 @@ html {
   margin-top: 40px;
 }
 
+#div3 {
+  vertical-align: top;
+  padding-right: 1rem;
+  max-width: 100%;
+  display: inline-block;
+}
+
+.about-image {
+  max-width: 88%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 }
 
 
-
+::selection {
+  background: orange; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: orange; /* Gecko Browsers */
+}
 
 
