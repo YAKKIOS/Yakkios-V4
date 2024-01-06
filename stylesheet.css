@@ -2,17 +2,19 @@ html, body {
   overflow-x: hidden;
 }
 
+
 body {
   padding: 0;
   margin: 0;
   font-family: 'Inter', sans-serif;
   float: none;
   font-weight: 400;
-  animation: fadein 2s;
   font-size: 15px;
   height: 100vh;
   color: black;
   position: relative;
+  scroll-behavior: smooth;
+  animation: fadein 2s;
 }
 
 p {
@@ -56,25 +58,7 @@ body a {
   font-weight: 800;
 }
 
-@-webkit-keyframes fadein {
-  0%   { opacity: 0; }
-  100% { opacity: 1; }
-}
 
-
-@-webkit-keyframes reveal {
-  0% {
-    transform: translate(0,100%);
-  }
-  100% {
-    transform: translate(0,0);
-  }
-}
-
-
-html {
-  scroll-behavior: smooth;
-}
 
 .dark-mode {
   background-color: black;
