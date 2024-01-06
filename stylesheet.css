@@ -171,7 +171,6 @@ html {
 .feature-block {
   padding-top: 2.5rem;
   padding-left: .6rem;
-  overflow: hidden;
 }
 
 .feature-block-about {
@@ -278,7 +277,6 @@ html {
 
 .about-wrapper {
   padding: 6rem 0 0 1rem;
-  overflow: hidden;
 }
 
 #div3 {
