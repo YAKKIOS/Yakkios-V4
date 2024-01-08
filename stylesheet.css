@@ -110,6 +110,38 @@ body a {
   display: flex;
 }
 
+.column {
+  float: left;
+  width: 50%;
+  padding: 32px 24px;
+}
+
+.row {
+  display: flex;
+}
+
+.column h1 {
+  font-size: 15px;
+    padding: 12px 0 0 0;
+    margin: 0;
+    font-weight: 500;
+}
+
+.column h2 {
+    font-size: 15px;
+    padding: 4px 0 0 0;
+    margin: 0;
+    font-weight: 500;
+    color: grey;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .hero {
   padding-left: 10rem;
   padding-right: 10rem;
@@ -180,7 +212,7 @@ body a {
     padding: 0px 2rem 0 0px;
     margin: 0px;
     font-weight: normal;
-    max-width: 60%;
+    max-width: 56%;
 }
 
 
@@ -222,8 +254,18 @@ body a {
   }
 
 .about-image {
-  max-width: 60%;
+  max-width: 56%;
   padding-left: 1rem;
+}
+
+.work-image-wrapper {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.work-image {
+  width: 100%;
 }
 
 .paragraph-indent {
@@ -234,7 +276,7 @@ body a {
   display: inline-block;
   margin-left: 0;
   margin-right: 0;
-  width: 60%;
+  width: 56%;
   float: left;
   font-weight: normal;
 }
@@ -285,7 +327,7 @@ body a {
 #div3 {
   vertical-align: top;
   padding-right: 2rem;
-  max-width: 60%;
+  max-width: 56%;
   display: inline-block;
 }
 
@@ -342,6 +384,18 @@ body a {
 
 #div2 p {
   padding-bottom: 12px;
+}
+
+.column {
+  float: left;
+  width: 100%;
+  padding: 0 0 56px 0;
+}
+
+.row {
+  display: block;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 }
